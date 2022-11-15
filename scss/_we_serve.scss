@@ -1,0 +1,27 @@
+.we_serve {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 150px;
+    margin: 40px 20px;
+    background-color: whitesmoke;
+    padding: 30px 0;
+    box-shadow: 0.2px 0.2px 5px 0.2px grey;
+
+    .title{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    &_items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    &_img {
+        width: 250px;
+        height: 250px;
+    }
+
+}

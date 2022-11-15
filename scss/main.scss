@@ -1,0 +1,15 @@
+@import "config";
+@import "header";
+@import "jumbotron";
+@import "we_serve";
+@import "amenities";
+@import "gallery";
+@import "footer";
+
+body {
+    background-color:snow;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    padding-bottom: 70px;
+    position: relative;
+}
