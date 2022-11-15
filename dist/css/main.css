@@ -14,7 +14,6 @@
   min-height: auto;
   z-index: 2;
 }
-
 .main_home_header a {
   color: whitesmoke;
   padding-right: 15px;
@@ -26,17 +25,14 @@
   display: block;
   text-align: center;
 }
-
 .main_home_header a.active {
   background-color: gold;
   color: black;
 }
-
 .main_home_header a:hover {
   background-color: gold;
   color: black;
 }
-
 .main_home_header a.icon {
   display: none;
 }
@@ -51,7 +47,6 @@
     display: block;
   }
 }
-
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 768px) {
   .topnav.responsive {
@@ -68,7 +63,6 @@
     text-align: center;
   }
 }
-
 .jumbotron {
   margin-top: 100px;
   min-height: 45vh;
@@ -83,22 +77,18 @@
   -webkit-box-shadow: 0.2px 0.2px 5px 0.2px grey;
           box-shadow: 0.2px 0.2px 5px 0.2px grey;
 }
-
 .jumbotron .jumbotron_welcome_text {
   position: absolute;
   left: 10px;
   top: 25%;
   padding: 20px;
 }
-
 .jumbotron_white_text {
   color: whitesmoke;
 }
-
 .jumbotron_gold_text {
   color: gold;
 }
-
 .jumbotron .btn {
   color: whitesmoke;
   border-radius: 20px;
@@ -127,12 +117,10 @@
   -webkit-box-shadow: 0.2px 0.2px 5px 0.2px grey;
           box-shadow: 0.2px 0.2px 5px 0.2px grey;
 }
-
 .we_serve .title {
   text-align: center;
   padding-bottom: 30px;
 }
-
 .we_serve_items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -142,7 +130,6 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-
 .we_serve_img {
   width: 250px;
   height: 250px;
@@ -165,12 +152,10 @@
   -webkit-box-shadow: 0.2px 0.2px 5px 0.2px grey;
           box-shadow: 0.2px 0.2px 5px 0.2px grey;
 }
-
 .amenities .title {
   text-align: center;
   padding-bottom: 30px;
 }
-
 .amenities_items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -180,7 +165,6 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-
 .amenities_item_img {
   width: 250px;
   height: 250px;
@@ -203,12 +187,10 @@
   -webkit-box-shadow: 0.2px 0.2px 5px 0.2px grey;
           box-shadow: 0.2px 0.2px 5px 0.2px grey;
 }
-
 .gallery .title {
   text-align: center;
   padding-bottom: 30px;
 }
-
 .gallery_items {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -218,7 +200,6 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
 .gallery_item_img {
   width: 250px;
   height: 250px;
@@ -234,7 +215,6 @@
   padding: 25px 0;
   color: whitesmoke;
 }
-
 .footer a {
   color: whitesmoke;
   text-decoration: none;
@@ -242,9 +222,8 @@
 
 body {
   background-color: snow;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   min-height: 100vh;
   padding-bottom: 70px;
   position: relative;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
