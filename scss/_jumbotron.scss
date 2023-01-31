@@ -1,5 +1,7 @@
 .jumbotron {
     margin-top: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
     min-height: 45vh;
     border-width: 10px;
     border-color: $secondary-color;
@@ -9,7 +11,7 @@
     background-size:cover;
     background-repeat: no-repeat;
     position: relative;
-    box-shadow: 0.2px 0.2px 5px 0.2px grey;
+    box-shadow: 0.2px 0.2px 2px 0.1px #f2d626;
 
     #{&}_welcome_text{
         position: absolute;
